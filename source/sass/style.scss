@@ -1,0 +1,20 @@
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/welcome.scss";
+@import "blocks/component.scss";
+@import "blocks/knowledge.scss";
+@import "blocks/portfolio.scss";
+@import "blocks/trophies.scss";
+@import "blocks/social.scss";
+
+
+@font-face {
+  font-family: "Marske";
+  src: url("../fonts/Marske.woff2") format("woff2"), url("../fonts/Marske.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+body {
+  font-family: "Marske",  "Arial", cursive;
+}
