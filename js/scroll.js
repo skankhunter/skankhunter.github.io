@@ -7,6 +7,6 @@ $(document).ready(function(){
         //узнаем высоту от начала страницы до блока на который ссылается якорь
         top = $(id).offset().top;
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({scrollTop: top}, 3000);
+        $('body,html').animate({scrollTop: top}, 1000);
     });
 });
