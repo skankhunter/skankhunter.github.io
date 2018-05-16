@@ -608,6 +608,9 @@ figure.effect-apollo:hover p {
   -webkit-transition: 0.3s;
   transition: 0.3s; }
 
+.grid .trophies__item:nth-child(2) {
+  margin-bottom: 100px; }
+
 .grid .trophies__figure {
   overflow: visible;
   opacity: 1;
