@@ -633,6 +633,15 @@ figure.effect-apollo:hover p {
 .grid figure:hover .trophies__figcaption {
   top: 100%; }
 
+.grid .netology__item {
+  max-width: 625px; }
+
+.grid .netology__figure {
+  width: 100%; }
+
+.grid figure .netology__figcaption {
+  top: 60%; }
+
 @-webkit-keyframes swing {
   15% {
     -webkit-transform: rotate(60deg);
@@ -683,7 +692,9 @@ figure.effect-apollo:hover p {
   .grid figure .trophies__figcaption {
     padding-top: 8px;
     top: 70%;
-    height: 70px; } }
+    height: 70px; }
+  .grid figure .netology__figcaption {
+    top: 60%; } }
 
 @media (max-width: 370px) {
   .grid .trophies__figcaption h2 {
